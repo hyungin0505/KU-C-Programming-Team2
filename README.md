@@ -13,7 +13,8 @@
 6. `Clone (복제)` 
 
 ## Branch
-`main`에 바로 푸쉬하지 말고 `branch` 만들어서 테스트 및 디버깅 후 PR 날리기
+`main`에 바로 푸쉬하지 말고 `branch`에서 테스트 및 디버깅 후 PR 날리기   
+1주차는 `prototype` 브랜치에 ㄱㄱ   
 
 ## PR / main branch
-`main` branch는 PR 또는 대면으로 의논 후 커밋
+`main` branch는 PR 또는 대면으로 의논 후 커밋     
