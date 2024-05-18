@@ -18,3 +18,6 @@
 
 ## PR / main branch
 `main` branch는 PR 또는 대면으로 의논 후 커밋     
+
+--- 
+[Reference](https://hyungin0505.tistory.com/88)
