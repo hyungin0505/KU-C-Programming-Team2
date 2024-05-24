@@ -127,11 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Combination.c" />
+    <ClCompile Include="GameUtility.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="MainGame.c" />
+    <ClCompile Include="MiniGame.c" />
     <ClCompile Include="stats.c" />
+    <ClCompile Include="test.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="default_header.h" />
+    <ClInclude Include="GameUtility.h" />
+    <ClInclude Include="MiniGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
