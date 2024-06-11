@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\GameUtility.c" />
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\mainfnc.c" />
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\MainGame.c" />
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\Mini_game.c" />
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\UICreate.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\All_In_one_header.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\default_header.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\GameUI.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\GameUtility.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\Maingame_header.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\MiniGame.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,13 +141,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.c" />
-    <ClCompile Include="stats.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="default_header.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

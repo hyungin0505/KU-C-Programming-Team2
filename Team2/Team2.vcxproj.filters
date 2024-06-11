@@ -15,15 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\GameUtility.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="stats.c">
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\mainfnc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\MainGame.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\Mini_game.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\UICreate.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="default_header.h">
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\default_header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\GameUI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\GameUtility.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\Maingame_header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\MiniGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\All_In_one_header.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
