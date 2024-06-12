@@ -19,19 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\GameUtility.c" />
-    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\mainfnc.c" />
-    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\MainGame.c" />
-    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\Mini_game.c" />
-    <ClCompile Include="..\..\..\..\..\Downloads\새 폴더\UICreate.c" />
+    <ClInclude Include="All_In_one_header.h" />
+    <ClInclude Include="default_header.h" />
+    <ClInclude Include="GameUI.h" />
+    <ClInclude Include="GameUtility.h" />
+    <ClInclude Include="Maingame_header.h" />
+    <ClInclude Include="MiniGame.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\All_In_one_header.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\default_header.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\GameUI.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\GameUtility.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\Maingame_header.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\새 폴더\MiniGame.h" />
+    <ClCompile Include="GameUtility.c" />
+    <ClCompile Include="mainfnc.c" />
+    <ClCompile Include="MainGame.c" />
+    <ClCompile Include="Mini_game.c" />
+    <ClCompile Include="UICreate.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

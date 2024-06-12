@@ -1,3 +1,10 @@
-#include <Windows.h>
-void gotoxy(int x, int y);//ÀÌµ¿ÇÔ¼ö Á¤ÀÇ
-extern int x, y;//ÀÌµ¿ÇÔ¼ö¿¡ µé¾î°¡´Â x,y´Â ¿ÜºÎ¿¡¼­ ±Ü¾î¿À´Â º¯¼öÀÓÀ» Á¤ÀÇ 
+#pragma once
+#include "default_header.h"
+
+void gotoxy(int, int);//ì´ë™í•¨ìˆ˜ ì •ì˜
+void CursorClosing();//ì»¤ì„œ ìˆ¨ê¸°ëŠ”ë° ì‚¬ìš©ë˜ëŠ” í•¨ìˆ˜
+void CursorView();//ì»¤ì„œ ë³´ì´ê²Œ í•˜ëŠ”ë° ì´ìš©ë˜ëŠ” í•¨ìˆ˜
+void SetTextcolor(int, int);//í…ìŠ¤íŠ¸ ìƒ‰ ë³€ê²½í•˜ëŠ” í•¨ìˆ˜
+void CursorCoordclear();
+void typewriterEffect(const char* text, int delay);//í…ìŠ¤íŠ¸ ì• ë‹ˆë©”ì´ì…˜ íš¨ê³¼.
+
